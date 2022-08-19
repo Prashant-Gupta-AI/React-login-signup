@@ -1,0 +1,74 @@
+.container-login{
+    position: relative;
+    width: 300px;
+    height: 500px;
+    top: 2vh;
+    background-image: url('../../../public/login.png');
+    background-position: center;
+    background-size: 300px 500px;
+}
+
+.container-login i{
+    position: relative;
+    top:15vh;
+    right: 45px;
+    color: white;
+    display: inline;
+}
+
+#user_email, #user_password{
+    position: relative;
+    top: 15vh;
+    width: 75%;
+    padding: 5px;
+    margin: 10px 25px ;
+    color: white;
+}
+
+#login_next{
+    position: relative;
+    width: 70px;
+    height: 30px;
+    top: 17vh;
+    left:21vw;
+    font-weight: bolder;
+    font-size: 16px;
+    background-color: white;
+    color: #060632;
+    border: none;
+    border-radius: 25px;
+}
+
+#login_txt{
+    position: relative;
+    top:10vh;
+    left:20vw;
+    font-size: 2em;
+    font-weight: 200;
+    color: white;
+}
+
+#forgot_password{
+    width: 90px;
+    height: 50px;
+    position: relative;
+    top: 14vh;
+    left:3vw;
+}
+
+#forgot_password a{
+    font-size: 0.6em;
+    font-weight: 100;
+    color: white;
+}
+
+.brand_logos{
+    position: relative;
+    top: 13vh;
+    left:2vw;
+    z-index: 200;
+}
+
+.brand_logos a{
+    margin:1vw
+}
