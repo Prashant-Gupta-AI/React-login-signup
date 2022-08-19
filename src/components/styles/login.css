@@ -10,7 +10,7 @@
 
 .container-login i{
     position: relative;
-    top:15vh;
+    top:128px;
     right: 45px;
     color: white;
     display: inline;
@@ -18,7 +18,7 @@
 
 #user_email, #user_password{
     position: relative;
-    top: 15vh;
+    top: 128px;
     width: 75%;
     padding: 5px;
     margin: 10px 25px ;
@@ -29,8 +29,8 @@
     position: relative;
     width: 70px;
     height: 30px;
-    top: 17vh;
-    left:21vw;
+    top: 144px;
+    left:177px;
     font-weight: bolder;
     font-size: 16px;
     background-color: white;
@@ -41,8 +41,8 @@
 
 #login_txt{
     position: relative;
-    top:10vh;
-    left:20vw;
+    top:100px;
+    left:177px;
     font-size: 2em;
     font-weight: 200;
     color: white;
@@ -52,8 +52,8 @@
     width: 90px;
     height: 50px;
     position: relative;
-    top: 14vh;
-    left:3vw;
+    top: 122px;
+    left:32px;
 }
 
 #forgot_password a{
@@ -64,11 +64,50 @@
 
 .brand_logos{
     position: relative;
-    top: 13vh;
-    left:2vw;
+    top: 106px;
+    left:14px;
     z-index: 200;
 }
 
 .brand_logos a{
-    margin:1vw
+    margin:10px
+}
+
+.wobb{
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top:125px;
+    right:20px;
+    color: white;
+    
+}
+
+.wobb hr{
+    width:50%;
+    text-align:left;
+    margin-left:0;
+    margin-top: -12px;
+    padding-top: 0;
+
+}
+
+.wobb .txt{
+   margin-top: 5px;
+    font-size: 0.7em;
+    margin-bottom: 5px;
+    align-self: center;
+   
+}
+
+.wobb .txt a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.wobb .copyright{
+    font-size: 0.5em;
 }

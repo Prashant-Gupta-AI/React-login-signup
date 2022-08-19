@@ -33,6 +33,12 @@ const Login = () => {
                     <a href="/#"><img src={twitter} alt="twitter" /></a>
                     <a href="/#"><img src={apple} alt="apple" /></a>
                 </div>
+                <div className="wobb">
+                    <hr/>
+                    <div className="txt">New to wobb?&nbsp; &nbsp;<a href="/#">Sign up </a></div>
+                <div className="copyright">&#169;Copyright 2022-2030 wobb. All rights reserved.</div>
+                </div>
+
             </div>
         </>
     )
