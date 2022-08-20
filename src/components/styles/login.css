@@ -8,28 +8,53 @@
     background-size: 300px 500px;
 }
 
+
+.wobb-circle{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #060632;
+    color: white;
+    font-size: 1.7em;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    top: -100px;
+    left: 25px;
+}
+
+
+#user_email, #user_password
+{
+    position: relative;
+    top: 140px;
+    width: 75%;
+    padding: 5px;
+    margin: 10px 25px ;
+    color: white;
+    background: #060632;
+   
+}
+
 .container-login i{
     position: relative;
-    top:128px;
+    top:140px;
     right: 45px;
     color: white;
     display: inline;
 }
 
-#user_email, #user_password{
-    position: relative;
-    top: 128px;
-    width: 75%;
-    padding: 5px;
-    margin: 10px 25px ;
-    color: white;
+input[type=email]:focus{
+    background-color: #060632;
 }
 
 #login_next{
     position: relative;
     width: 70px;
     height: 30px;
-    top: 144px;
+    top: 165px;
     left:177px;
     font-weight: bolder;
     font-size: 16px;
@@ -37,6 +62,7 @@
     color: #060632;
     border: none;
     border-radius: 25px;
+    cursor: pointer;
 }
 
 #login_txt{
@@ -52,7 +78,7 @@
     width: 90px;
     height: 50px;
     position: relative;
-    top: 122px;
+    top: 140px;
     left:32px;
 }
 
@@ -64,8 +90,8 @@
 
 .brand_logos{
     position: relative;
-    top: 106px;
-    left:14px;
+    top: 133px;
+    left: 20px;
     z-index: 200;
 }
 
@@ -75,13 +101,12 @@
 
 .wobb{
     position: relative;
-
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    top:125px;
-    right:20px;
+    top: 165px;
+    right: 11px;
     color: white;
     
 }

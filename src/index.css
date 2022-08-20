@@ -6,19 +6,25 @@
 }
 
 body {
+  height: 100vh;
   background: #c9c9c9;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
+/* body {
+  background-image: url('../public/assets/righttop.png'), url('../public/assets/leftsemi.png');
+  background-position: right top, left bottom;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 70vw 45vh, 45vw 45vh;
+} */
+
 .main{
-  min-width: 100vw;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-  
 }
 
 
@@ -33,16 +39,17 @@ body {
   display: block;
   z-index: 0;
 }
-
+/* 
 .ellipse2 {
   position: absolute;
   width: 500px;
   height: 450px;
- bottom: -20%;
- left: -65%;
+  bottom: -9%;
+  left: -65%;
   border-radius: 50%;
   background: #29297B;
   overflow: hidden;
   display: inline-block;
   z-index: 0;
-}
+} */
+

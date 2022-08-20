@@ -1,18 +1,23 @@
 import './App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Login from './components/Login';
 import SignUp from './components/SignUp';
 
 function App() {
   return (
     <>
-    <section className='main'>
-      {/* <span className="ellipse1"></span>
-      <span className="ellipse2"></span> */}
-   {/* <SignUp /> */}
-
-   <Login />
+    <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<SignUp />} />
+      <Route path="/login" element={ <Login />} />
+    </Routes>
+    
+    </BrowserRouter>
+      
+    {/* <section className='main'>
+    
    
-    </section>
+    </section> */}
     
     </>
   );
