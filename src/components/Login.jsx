@@ -34,8 +34,8 @@ const Login = () => {
             <div className="wobb-circle">wobb</div>
                 <h1 id='login_txt'>Login</h1>
                 <form id="login-form" onSubmit={handleSubmit}>
-                    <input value={user.user_email} onChange={handleChange} name='user_email' id='user_email' type="email" placeholder='Email' /><i className="fa-solid fa-envelope"></i>
-                    <input value={user.user_password} onChange={handleChange} name='user_password' id='user_password' type="password" placeholder='Create Password' /><i className="fa-solid fa-eye"></i>
+                    <input required value={user.user_email} onChange={handleChange} name='user_email' id='user_email' type="email" placeholder='Email' /><i className="fa-solid fa-envelope"></i>
+                    <input required value={user.user_password} onChange={handleChange} name='user_password' id='user_password' type="password" placeholder='Create Password' /><i className="fa-solid fa-eye"></i>
                     <button id='login_next' type='submit' >NEXT</button>
                 </form>
                 <div id='forgot_password'><a href='/#'>forgot password?</a></div>

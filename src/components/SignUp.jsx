@@ -58,7 +58,7 @@ function SignUp() {
           </div>
           <button id='next' className='NEXT' type='submit' >NEXT</button>
         </form>
-        <div className="back"><Link to='/login'><i className="fa-solid fa-circle-left"></i></Link></div>
+        <div className="back"><Link to='/login' style={{ textDecoration: 'none' }} ><i className="fa-solid fa-circle-left"></i></Link></div>
       </div>
     </>
   )
