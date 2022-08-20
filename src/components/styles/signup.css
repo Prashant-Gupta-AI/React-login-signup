@@ -65,9 +65,9 @@ select{
 
 .container-signup .back{
     position: relative;
-    height: 125px;
-    bottom: -300px;
-    background-image: url('../../../public/assets/bottom.png');
+    height: 200px;
+    bottom: -200px;
+    background-image: url('../../../public/assets/Go Back.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
     display: flex;
@@ -76,11 +76,10 @@ select{
     justify-content: center;
 }
 
-
 .container-signup .back i{
     position: relative;
-    top: -17px;
-    right: -71px;
+    top: -29px;
+    right: -77px;
     font-size: 2.5em;
     color: white;
     display: inline;

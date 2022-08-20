@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './styles/signup.css'
 import polygon from './assets/Polygon.png'
+import { Link } from 'react-router-dom';
 
 
 function SignUp() {
@@ -57,7 +58,7 @@ function SignUp() {
           </div>
           <button id='next' className='NEXT' type='submit' >NEXT</button>
         </form>
-        <div className="back"><i className="fa-solid fa-circle-left"></i></div>
+        <div className="back"><Link to='/login'><i className="fa-solid fa-circle-left"></i></Link></div>
       </div>
     </>
   )
