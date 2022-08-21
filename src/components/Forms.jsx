@@ -26,7 +26,6 @@ function Forms() {
     const handleSubmit = (e) => {
         e.preventDefault();
 
-
         console.log(itemList);
         const form = itemList.map((item) => item.item);
 
@@ -34,10 +33,9 @@ function Forms() {
             "myField": form,
             "submit": "submit"
         })
-        alert("Json response object in the console")
         console.log(Myform)
-
-    }
+        alert("Json response object in the console")
+    };
 
     return (
         <form className="App" autoComplete="off" onSubmit={handleSubmit}>
